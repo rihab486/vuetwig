@@ -1,0 +1,23 @@
+
+.h{
+
+    color: blue;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+header{
+    background-color: aquamarine;
+}
+header.red {
+    background-color: brown;
+
+}
+ul li:hover {
+    color: aqua;
+}
+/* li div img {
+    width:  300px;
+    height: 300px;
+} */

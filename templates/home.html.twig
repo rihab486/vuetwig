@@ -1,0 +1,43 @@
+{% extends 'index.html.twig' %}
+
+{% block title%} Home - welcome ! {% endblock%}
+
+
+{% block header%} 
+ {%  include '/header/header.html.twig' %}
+{% endblock%}
+
+{% block container %} 
+         <ul class="users">
+                    {% for user in users %}
+
+                    <li class="user-item" > {{ user.full_name}}
+
+                      <div class="user-picture" >
+                        <img src={{ user.cover}}  width="300" height="300" alt={{"image de {{user.full_name}} "}}>
+                      
+                      </div>
+
+                      <div class="user-image" > 
+                       <img src={{ user.picture}}  width="50" height="50" alt={{"image de {{user.full_name}} "}}>
+
+                      </div>createdAt
+                      
+                      <div class="user-names" >
+                         <h2> {{user.full_name}} </h2>
+                         <h2 class="createdAt"> {{user.createdAt |date("m/d/Y")}} </h2>
+                      </div>
+
+                        
+                    
+                      
+                      </div>
+                    
+                    </li>
+                    
+
+
+                    {%endfor%}
+
+        </ul>
+{% endblock%}

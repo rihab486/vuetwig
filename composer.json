@@ -1,0 +1,18 @@
+{
+    "name": "zoubaida/twig_template",
+    "autoload": {
+        "psr-4": {
+            "Zoubaida\\TwigTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zoubaidachatti",
+            "email": "71558413+zoubaidachatti@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.8",
+        "espero-soft/faker": "dev-master"
+    }
+}

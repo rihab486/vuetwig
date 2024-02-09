@@ -1,0 +1,33 @@
+{
+    "name": "espero-soft/faker",
+    "description": "Faker is a PHP library that generates fake data for you.",
+    "type": "library",
+    "license": "MIT",
+    "config": {
+        "secure-http": false
+    },
+    "minimum-stability": "stable",
+    "keywords": [
+        "faker",
+        "fixtures",
+        "data",
+        "espero-soft",
+        "mudey",
+        "espero",
+        "akpoli"
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "EsperoSoft\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Espero-Soft Informatiques",
+            "email": "contact@espero-soft.com"
+        }
+    ]
+}
